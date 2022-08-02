@@ -1,0 +1,25 @@
+.cardItem {
+  max-width: 45%;
+
+  & img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .description {
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+
+  & .labelWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    font-size: 18px;
+  }
+}
